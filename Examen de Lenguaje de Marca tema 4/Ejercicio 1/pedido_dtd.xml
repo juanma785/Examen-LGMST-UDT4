@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE pedido "pedido.dtd">
+
+    <sucursal>
+      <codigo>F5948394</codigo>
+      <nombreTrabajador>Alejandro Sanz</nombreTrabajador>
+      <fecha>2022-12-01</fecha>
+      <observaciones>Urgente</observaciones>
+    </sucursal>
+
+    <articulo>
+      <codigo>DMC-934</codigo>
+      <unidades>10</unidades>
+      <precio>5.0</precio>
+      <observaciones> Incompleto</observaciones>
+      <plazoRevision>9</plazoRevision>
+    </articulo>
+
+    <articulo>
+      <codigo>PXK-024</codigo>
+      <unidades>20</unidades>
+      <precio>3.5</precio>
+      <observaciones>Urgente</observaciones>
+      <plazoRevision>3</plazoRevision>
+    </articulo>
+  </pedido>

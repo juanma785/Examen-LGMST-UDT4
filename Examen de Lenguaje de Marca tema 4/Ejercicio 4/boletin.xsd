@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="boletin">
+ <xs:complexType>
+ <xs:sequence>
+ <xs:element name="nombre" type="xs:string"/>
+ <xs:element name="ciclo" type="xs:string"/>
+ <xs:element name="curso" type="xs:positiveInteger"/>
+ <xs:element name="evaluacion" type="xs:positiveInteger"/>
+ <xs:complexType>
+     <xs:sequence>
+    <xs:element name="cualificacion" type="xs:positiveInteger"/>
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="modulo" type="xs:positiveInteger"/>
+        <xs:element name="curso" type="xs:positiveInteger"/>
+        <xs:element name="evaluacion" type="xs:positiveInteger"/>
+        <xs:element name="nota" type="xs:positiveInteger" minOccurs="1" maxOccurs="10" />
+    </xs:sequence>
+</xs:complexType>
+     </xs:sequence>
+ </xs:complexType>
+ </xs:sequence>
+ </xs:complexType>
+ </xs:element>
+ </xs:sequence>
+ </xs:complexType>
+ </xs:element>
+</xs:schema>

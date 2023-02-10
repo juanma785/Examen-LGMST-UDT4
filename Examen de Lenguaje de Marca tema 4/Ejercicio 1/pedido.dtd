@@ -1,0 +1,13 @@
+<!ELEMENT pedido (sucursal, trabajador, fecha, observaciones?, articulos)>
+  <!ELEMENT sucursal (codigo, nombreTrabajador, fecha, observacion)>
+  <!ELEMENT nombreTrabajador (#PCDATA)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT observaciones (#PCDATA)>
+  <!ELEMENT articulos (articulo+)>
+  <!ELEMENT articulo (codigo, unidades, precio, observaciones, plazo)>
+  <!ELEMENT codigo (#PCDATA)>
+  <!ELEMENT unidades (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+  <!ELEMENT observaciones (#PCDATA)>
+  <!ELEMENT plazo (#PCDATA)>
+ 
